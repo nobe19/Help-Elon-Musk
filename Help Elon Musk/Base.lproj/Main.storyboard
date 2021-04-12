@@ -37,6 +37,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="YdW-0F-5gA" appends="YES" id="tjl-8Q-Z8O"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="rocketImageView" destination="p6V-gu-eBi" id="BtG-G9-MR5"/>
@@ -48,6 +52,7 @@
                         <action selector="rocketTapped:" destination="BYZ-38-t0r" id="NlO-OT-5WV"/>
                     </connections>
                 </tapGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="YdW-0F-5gA"/>
             </objects>
             <point key="canvasLocation" x="35" y="76"/>
         </scene>
